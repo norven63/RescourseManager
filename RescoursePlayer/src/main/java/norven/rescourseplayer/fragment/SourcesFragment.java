@@ -20,11 +20,6 @@ public class SourcesFragment extends Fragment {
 	private ListView fileListView;
 	private SimpleFileListAdapter simpleFileListAdapter;
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(R.layout.fragment_sourceslist, container, false);
-	}
-
 	private void initFiles(File file) {
 		if (null == file || !file.exists()) {
 			assert false : "入参不合法！";
@@ -36,6 +31,11 @@ public class SourcesFragment extends Fragment {
 		for (File childFile : file.listFiles()) {
 			fileList.add(childFile);
 		}
+	}
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+		return inflater.inflate(R.layout.fragment_sourceslist, container, false);
 	}
 
 	@Override
