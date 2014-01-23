@@ -10,6 +10,13 @@
 		<guice.version>3.0</guice.version>
 		<google.apis.version>1.15.0-rc</google.apis.version>
 	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.rchugunov</groupId>
+			<artifactId>android-support-v4</artifactId>
+			<version>r18-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>

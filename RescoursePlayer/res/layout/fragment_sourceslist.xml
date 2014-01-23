@@ -2,9 +2,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <norven.rescourseplayer.customviews.MyViewPaper
-        android:id="@+id/source_viewPager"
+    <ListView
+        android:id="@+id/file_list_listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
