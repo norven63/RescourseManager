@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <norven.rescourseplayer.customviews.MyViewPaper
+    <com.norven.rescourseplayer.customviews.MyViewPaper
         android:id="@+id/source_viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

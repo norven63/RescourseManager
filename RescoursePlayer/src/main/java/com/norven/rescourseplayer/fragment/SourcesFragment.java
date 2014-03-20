@@ -1,11 +1,12 @@
-package norven.rescourseplayer.fragment;
+package com.norven.rescourseplayer.fragment;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.norven.rescourseplayer.adapter.SimpleFileListAdapter;
+
 import norven.rescourseplayer.R;
-import norven.rescourseplayer.adapter.SimpleFileListAdapter;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;

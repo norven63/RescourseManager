@@ -1,4 +1,4 @@
-package norven.rescourseplayer.adapter;
+package com.norven.rescourseplayer.adapter;
 
 import java.util.List;
 

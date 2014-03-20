@@ -1,4 +1,4 @@
-package norven.rescourseplayer.customviews;
+package com.norven.rescourseplayer.customviews;
 
 import android.content.Context;
 import android.util.AttributeSet;

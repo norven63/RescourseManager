@@ -1,12 +1,13 @@
-package norven.rescourseplayer.acivity;
+package com.norven.rescourseplayer.acivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.norven.rescourseplayer.adapter.MyFragmentPagerAdapter;
+import com.norven.rescourseplayer.customviews.MyViewPaper;
+import com.norven.rescourseplayer.fragment.SourcesFragment;
+
 import norven.rescourseplayer.R;
-import norven.rescourseplayer.adapter.MyFragmentPagerAdapter;
-import norven.rescourseplayer.customviews.MyViewPaper;
-import norven.rescourseplayer.fragment.SourcesFragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
